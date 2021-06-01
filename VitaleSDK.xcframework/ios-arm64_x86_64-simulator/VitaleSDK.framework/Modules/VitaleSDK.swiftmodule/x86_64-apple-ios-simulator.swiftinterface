@@ -1,0 +1,61 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name VitaleSDK
+import AVFoundation
+import AVKit
+import Alamofire
+import Charts
+import FMDB
+import Foundation
+import HCVimeoVideoExtractor
+import HealthKit
+import Instructions
+import Localize_Swift
+import SafariServices
+import Swift
+import SwiftDate
+import SwiftyJSON
+import SystemConfiguration
+import UIKit
+@_exported import VitaleSDK
+import WeFitterLib
+import WebKit
+import YoutubePlayer_in_WKWebView
+@objc @_inheritsConvenienceInitializers open class VitaleViewController : UIKit.UIViewController {
+  @objc override dynamic open func viewDidLoad()
+  @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class MyVitaleSDK {
+  public static let sharedInstance: VitaleSDK.MyVitaleSDK
+  public func start(with user: Swift.String, clientId: Swift.String, clientSecret: Swift.String, domain: Swift.String?)
+  public func logout()
+  public func setVitaleColor(color: Swift.String)
+  public func setNavigationBarColor(color: Swift.String)
+  public func setNavigationTintColor(color: Swift.String)
+  public func setNavigationImage(image: UIKit.UIImage?)
+  public func showVirtualPT()
+  public func showSportProfile()
+  public func showWearables()
+  public func showTrainingModule()
+  public func showNutritionModule()
+  public func showStats()
+  public func showTodaytraining()
+  public func getWearablesController(_ cb: @escaping ((UIKit.UIViewController?) -> ()))
+  public func getStatsController(_ cb: @escaping ((UIKit.UIViewController?) -> ()))
+  @objc deinit
+}
+extension UITextField {
+  @objc override dynamic open func awakeFromNib()
+}
+extension UILabel {
+  @objc override dynamic open func awakeFromNib()
+}
+extension UIButton {
+  @objc override dynamic open func awakeFromNib()
+}
+extension UIFont {
+  public static func jbs_registerFont(withFilenameString filenameString: Swift.String, bundle: Foundation.Bundle)
+}
