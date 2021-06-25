@@ -9,6 +9,7 @@ import FMDB
 import Foundation
 import HCVimeoVideoExtractor
 import HealthKit
+import Hero
 import Instructions
 import Localize_Swift
 import SafariServices

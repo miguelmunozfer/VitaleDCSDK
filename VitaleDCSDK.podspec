@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VitaleDCSDK'
-  s.version          = '1.0.5'
+  s.version          = '1.0.8'
   s.summary          = 'Intelligent, automatic, comprehensive, adaptive Training System'
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Miguel Muñoz' => 'miguel.munoz@myvitale.com' }
-  s.source           = { :git => 'https://github.com/miguelmunozfer/VitaleDCSDK.git', :tag => "1.0.5" }
+  s.source           = { :git => 'https://github.com/miguelmunozfer/VitaleDCSDK.git', :tag => "1.0.8" }
   # s.social_media_url = 'https://twitter.com/mmunozfer'
   # s.resource = 'VitaleSDK.xcframework'
   s.ios.deployment_target = '11.0'
@@ -35,6 +35,7 @@ Pod::Spec.new do |s|
   s.dependency 'HCVimeoVideoExtractor', '0.0.1'
   s.dependency 'Instructions', '1.3.1'
   s.dependency 'Charts', '3.6.0'
+  s.dependency 'Hero'
   s.swift_version = "5.0"
   s.xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
 
