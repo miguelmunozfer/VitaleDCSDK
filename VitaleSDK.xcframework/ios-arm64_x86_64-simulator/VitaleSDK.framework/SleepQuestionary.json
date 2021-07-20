@@ -1,0 +1,87 @@
+[
+	{
+		"title": "¿Cuántas horas duerme cada noche?",
+		"answers":[
+			{
+				"title": "Menos de 6 horas diarias",
+				"score": 1
+			},
+			{
+				"title": "Entre 6 y 8 horas",
+				"score": 2
+			},
+			{
+				"title": "Más de 8 horas al día",
+				"score": 3
+			},
+		]	
+	},
+	{
+		"title": "¿Le cuesta conciliar el sueño?",
+		"answers":[
+			{
+				"title": "Siempre",
+				"score": 1
+			},
+			{
+				"title": "Bastantes veces",
+				"score": 2
+			},
+			{
+				"title": "Casi nunca",
+				"score": 3
+			},
+		]	
+	},
+    {
+        "title": "¿Se despierta cansado y con sensación de no haber dormido?",
+        "answers":[
+            {
+                "title": "Siempre",
+                "score": 1
+            },
+            {
+                "title": "Bastantes veces",
+                "score": 2
+            },
+            {
+                "title": "Casi nunca",
+                "score": 3
+            },
+        ]
+    },
+    {
+        "title": "¿Se despierta varias veces en mitad de la noche?",
+        "answers":[
+            {
+                "title": "Siempre",
+                "score": 1
+            },
+            {
+                "title": "Bastantes veces",
+                "score": 2
+            },
+            {
+                "title": "Casi nunca",
+                "score": 3
+            },
+        ]
+    },
+    {
+        "title": "¿Se encuentra cansado y con sueño durante el día?",
+        "answers":[
+            {
+                "title": "Siempre",
+                "score": 1
+            },
+            {
+                "title": "Bastantes veces",
+                "score": 2
+            },
+            {
+                "title": "Casi nunca",
+                "score": 3
+            },
+        ]
+    }
+]

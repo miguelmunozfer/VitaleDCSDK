@@ -1,0 +1,87 @@
+[
+	{
+		"title": "En el último mes, ¿con qué frecuencia ha estado afectado negativamente por algo que ha ocurrido inesperadamente?",
+		"answers":[
+			{
+				"title": "Con mucha frecuencia",
+				"score": 1
+			},
+			{
+				"title": "Algunas veces",
+				"score": 2
+			},
+			{
+				"title": "Casi nunca",
+				"score": 3
+			}
+		]	
+	},
+	{
+		"title": "En el último mes, ¿con qué frecuencia ha sentido que sus emociones no le han dejado tomar decisiones con calma?",
+		"answers":[
+			{
+				"title": "Con mucha frecuencia",
+				"score": 1
+			},
+			{
+				"title": "Algunas veces",
+				"score": 2
+			},
+			{
+				"title": "Casi nunca",
+				"score": 3
+			}
+		]	
+	},
+    {
+        "title": "En el último mes, ¿con qué frecuencia se ha sentido nervioso, estresado o enfadado?",
+        "answers":[
+            {
+				"title": "Con mucha frecuencia",
+				"score": 1
+			},
+			{
+				"title": "Algunas veces",
+				"score": 2
+			},
+			{
+				"title": "Casi nunca",
+				"score": 3
+			}
+        ]
+    },
+    {
+        "title": "En el último mes, ¿con qué frecuencia ha sentido que las dificultades se acumulan tanto que no puede superarlas?",
+        "answers":[
+            {
+				"title": "Con mucha frecuencia",
+				"score": 1
+			},
+			{
+				"title": "Algunas veces",
+				"score": 2
+			},
+			{
+				"title": "Casi nunca",
+				"score": 3
+			}
+        ]
+    },
+    {
+        "title": "En el último mes, ¿con qué frecuencia ha sentido síntomas como palpitaciones, sudoración nocturna, hormigueos o sensación de ansiedad incontrolable?",
+        "answers":[
+            {
+				"title": "Con mucha frecuencia",
+				"score": 1
+			},
+			{
+				"title": "Algunas veces",
+				"score": 2
+			},
+			{
+				"title": "Casi nunca",
+				"score": 3
+			}
+        ]
+    }
+]

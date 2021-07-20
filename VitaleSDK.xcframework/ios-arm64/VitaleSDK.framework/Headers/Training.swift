@@ -97,6 +97,15 @@ public class MyVitaleSDK{
         }
     }
     
+    public func showQuestionariesModule(){
+        VitaleWorkoutController.sharedInstance.getQuestionaries { (viewController) in
+            if let topViewController = UIApplication.shared.keyWindow?.rootViewController{
+                viewController?.modalPresentationStyle = .fullScreen
+                topViewController.present(viewController!, animated: true, completion: nil)
+            }
+        }
+    }
+    
     public func showStats(){
         VitaleWorkoutController.sharedInstance.getStats { (viewController) in
             if let topViewController = UIApplication.shared.keyWindow?.rootViewController{
